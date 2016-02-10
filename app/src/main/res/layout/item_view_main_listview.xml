@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_title_item_view_main_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/imageView_photo_item_view_main_listview"
+        android:maxLines="2"
+        android:text="Tytuł"
+        android:onClick="onClick"
+        android:textColor="#1e202c"
+        android:textSize="18sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_site_item_view_main_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_title_item_view_main_listview"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/imageView_photo_item_view_main_listview"
+        android:lines="1"
+        android:maxLines="1"
+        android:paddingBottom="10dp"
+        android:text="Strona"
+
+        android:textColor="#c3c1c1"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/textView_description_item_view_main_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_title_item_view_main_listview"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/imageView_photo_item_view_main_listview"
+        android:lines="1"
+        android:maxLines="1"
+        android:paddingBottom="10dp"
+        android:text="Strona"
+
+        android:textColor="#c3c1c1"
+        android:textSize="15sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView_photo_item_view_main_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="false"
+        android:background="#000"
+
+        android:scaleType="centerCrop"
+         />
+
+</RelativeLayout>
