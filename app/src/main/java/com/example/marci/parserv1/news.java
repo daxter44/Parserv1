@@ -20,6 +20,7 @@ public class news extends AppCompatActivity {
 
         WebView myWebView = (WebView) findViewById(R.id.webView);
         myWebView.loadUrl(link);
+        if(1=2){}
 
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
